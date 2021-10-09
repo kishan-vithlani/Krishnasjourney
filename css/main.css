@@ -1,0 +1,202 @@
+
+.primary-color{
+    color: #186AA5 !important;
+}
+.sec-color{
+    color: #94CDFB !important;
+}
+
+.nav-item{
+    padding: 0px 30px;
+}
+
+.hero-button{
+    border: 1px solid #186AA5;
+    background-color: transparent;
+    color: #186AA5;
+    border-radius: 0%;
+}
+
+.lead{
+    font-size: 2.25rem;
+}
+
+.section-title{
+    font-size: 48px;
+    position: relative;
+}
+.section-title span{
+    margin-left: -60px;
+    bottom: 0;
+    position: absolute;
+}
+
+.nav-pills .nav-link{
+    padding: 8px 25px;
+    color: #186AA5;
+    font-size: 18px;
+    border: 1px solid #186AA5;
+    border-radius: 500px;
+}
+
+.nav-pills .nav-item.active .nav-link, .nav-pills .show>.nav-link{
+    color: #186AA5;
+    background-color: #94CDFB;
+}
+
+.portfolio-image{
+    padding: 20px;
+}
+.portfolio-image img{
+    width: 100%;
+}
+/* Testimoniial CSS */
+.testimonial .pic{
+    width: 22%;
+    padding: 20px 0;
+    margin: 0 6% 0 2%;
+    float: left;
+    position: relative;
+    z-index: 1;
+}
+.testimonial .pic img{
+    width: 100%;
+    height: auto;
+}
+.testimonial .testimonial-content{
+    width: 70%;
+    float: right;
+}
+.testimonial .title{
+    display: block;
+    font-size: 18px;
+    font-weight: 600;
+    color: #186AA5;
+    margin: 0;
+    text-transform: uppercase;
+    padding-top: 65px;
+    padding-left: 15px;
+}
+.testimonial .post{
+    display: block;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 27px;
+    color: #94CDFB;
+    text-transform: capitalize;
+    margin-bottom: 25px;
+    padding-left: 15px;
+}
+.testimonial .description{
+    font-size: 16px;
+    color: #186AA5;
+    padding: 0 15px;
+    margin: 0;
+    position: relative;
+}
+.owl-theme .owl-controls{
+    width: 70%;
+    margin: 0;
+    text-align: left;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.owl-theme .owl-controls .owl-buttons div{
+    width: 70px;
+    height: 90px;
+    line-height: 90px;
+    background: transparent;
+    border-radius: 0;
+    opacity: 1;
+    position: relative;
+}
+.owl-prev:before,
+.owl-next:before{
+    font-size: 45px;
+    font-weight: 900;
+    color: #186AA5;
+    position: absolute;
+    top: 0;
+    left: 25%;
+}
+@media only screen and (max-width: 990px){
+    .testimonial{ text-align: center; }
+    .testimonial .pic{
+        width: 200px;
+        margin: 0 auto;
+        float: none;
+    }
+    .testimonial .pic:before,
+    .testimonial .pic:after{
+        width: 80px;
+        height: 100px;
+    }
+    .testimonial .testimonial-content{
+        width: 100%;
+        float: none;
+    }
+    .testimonial .title{
+        padding: 15px 0 0 0;
+    }
+    .testimonial .post{
+        padding: 0;
+        margin-bottom: 10px;
+    }
+    .owl-theme .owl-controls{
+        width: 100%;
+        position: static;
+        text-align: center;
+    }
+    .owl-theme .owl-controls .owl-buttons div{
+        height: 50px;
+        line-height: 50px;
+    }
+}
+/* Testimoniial CSS */
+
+
+/* Carousel CSS */
+.carousel-indicators {
+    position: static;
+    height: 100px;
+    margin-top: 20px;
+  }
+  .carousel-indicators li {
+    display: flex;
+    width: 300px;
+    height: 100%;
+    opacity: 0.8;
+  }
+
+  #carouselExampleIndicators5 {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  
+  .carousel-control-prev{
+      left: -125px;
+    }
+    .carousel-control-next{
+        right: -125px;
+    }
+  .carousel-control-left::before {
+    font-size: 62px;
+    margin-left: -25px;
+    font-family: "Font Awesome 5 Free"; 
+    font-weight: 900; 
+    content: "\f104";
+  }
+  
+  .carousel-control-right::before {
+    font-size: 62px;
+    margin-right: -25px;
+    font-family: "Font Awesome 5 Free"; 
+    font-weight: 900; 
+    content: "\f105";
+  }
+/* Carousel CSS */
+
+@media only screen and (max-width: 720px) {
+
+}
